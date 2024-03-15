@@ -1,0 +1,15 @@
+lista=[]
+n1 = int(input("Primer numero de lista:"))
+n2 = int(input("Segundo numero de lista:"))
+n3 = int(input("Tercero numero de lista:"))
+n4 = int(input("Cuarto numero de lista:"))
+n5 = int(input("Quinto numero de lista:"))
+lista.append(n1)
+lista.append(n2)
+lista.append(n3)
+lista.append(n4)
+lista.append(n5)
+def funcion(lista):
+    lista.sort(reverse = True)
+    print(lista)
+funcion(lista)
